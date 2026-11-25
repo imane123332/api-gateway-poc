@@ -11,7 +11,7 @@ Security layer for a Spring Cloud Gateway protecting 5 .NET microservices
 (4 REST + 1 SOAP) of a university ERP simulation.
 Built during my internship at NetWaciila (Agadir, 2026).
 
-![Architecture](docs/img/architecture.png)
+
 
 ## My contribution (security layer)
 - Private PKI (RSA-4096 Root CA, per-service certificates with SAN) and mTLS between the gateway and each of the 5 backends (client → gateway is server-side TLS 1.3)
