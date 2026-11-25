@@ -5,6 +5,6 @@
 - RBAC: role matrix at gateway + [Authorize(Roles)] on backends, fail-closed
 - Redis token-bucket rate limiting; fail-closed secret management
 - Security audit: Trivy (CVEs fixed), OWASP ZAP (3 scans); load tests with JMeter
-
+![Secure API Gateway architecture](docs/architecture_gateway.png)
 ## Not my scope
 Gateway routing config and CI/CD: @Hafidamesad
