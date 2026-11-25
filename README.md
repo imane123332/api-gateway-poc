@@ -3,7 +3,7 @@
 Security layer for a Spring Cloud Gateway protecting 5 .NET microservices.
 Built during my internship at NetWaciila (2026).
 
-![Architecture](docs/img/architecture.png)
+![Secure API Gateway architecture](docs/architecture_gateway.png)
 
 ## My contribution (security layer)
 - Private PKI (RSA-4096 Root CA, per-service certs) + end-to-end mTLS
