@@ -77,11 +77,6 @@ printf 'GET /health HTTP/1.1\r\nHost: localhost\r\nConnection: close\r\n\r\n' | 
 
 PKI material is generated locally with OpenSSL under `security/pki/`; private keys are git-ignored and never committed.
 
-## Known limitations
-- The Docker Compose environment runs without mTLS.
-- Demo users and passwords in `AuthController` are for simulation only.
-- Load-test results are preliminary; p99 latency and a single 4.98 s outlier still need investigation.
-- No centralized audit log (Repudiation is only partially covered).
 
 ## Report
 [Technical report (PDF)](docs/report.pdf)
