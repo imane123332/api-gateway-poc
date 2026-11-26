@@ -79,4 +79,4 @@ PKI material is generated locally with OpenSSL under `security/pki/`; private ke
 
 
 ## Report
-[Technical report (PDF)](docs/report.pdf)
+[Technical report (PDF)](docs/report.pdf.pdf)
